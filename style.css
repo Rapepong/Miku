@@ -57,7 +57,7 @@
 .photo {
     margin: 0 auto; /* ทำให้ margin ซ้ายและขวาเป็น auto */
     padding: 0;
-    width: 13%;
+    width: 25%;
     height: auto;
     display: block; /* ทำให้เป็น block-level element เพื่อให้ margin auto ทำงาน */
 }
