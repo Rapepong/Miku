@@ -54,6 +54,13 @@
 .object ul li:hover::after{
     width: 100%;
 }
+.photo {
+    margin: 0 auto; /* ทำให้ margin ซ้ายและขวาเป็น auto */
+    padding: 0;
+    width: 13%;
+    height: auto;
+    display: block; /* ทำให้เป็น block-level element เพื่อให้ margin auto ทำงาน */
+}
 .content{
     width: 100%;
     position: absolute;
@@ -91,11 +98,4 @@ button:hover span{
 }
 button:hover{
     border: none
-}
-.photo {
-    margin: 0 auto; /* ทำให้ margin ซ้ายและขวาเป็น auto */
-    padding: 0;
-    width: 250px;
-    height: auto;
-    display: block; /* ทำให้เป็น block-level element เพื่อให้ margin auto ทำงาน */
 }
