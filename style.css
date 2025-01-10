@@ -13,7 +13,7 @@
 .logo {
     margin: 0;
     padding: 0;
-    width: 250px;
+    width: 15%;
     height: auto;
 }
 .object{
@@ -54,20 +54,20 @@
 .object ul li:hover::after{
     width: 100%;
 }
-.photo {
-    margin: 0 auto; /* ทำให้ margin ซ้ายและขวาเป็น auto */
-    padding: 0;
-    width: 25%;
-    height: auto;
-    display: block; /* ทำให้เป็น block-level element เพื่อให้ margin auto ทำงาน */
+.image2 {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
 }
 .content{
-    width: 100%;
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: white;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* จัดตำแหน่งที่ล่าง */
+    align-items: center; /* จัดตำแหน่งตรงกลางแนวนอน */
+    height: 55vh; /* ให้สูงเต็มหน้าจอ */
+    margin: 0; /* ลบ margin */
 }
 button{
     width: 200px;
